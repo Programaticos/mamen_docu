@@ -1,4 +1,4 @@
-import BarraNavegacion from "@/components/pages/home/header";
+import BarraNavegacion from "@/components/layout/header/BarraNavegacion";
 import Head from "next/head";
 
 export default function Formulario() {
@@ -10,7 +10,7 @@ export default function Formulario() {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
      </Head>
-     <BarraNavegacion/>
+    
      <body>
         <header></header>
          <main>

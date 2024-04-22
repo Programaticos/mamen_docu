@@ -1,5 +1,63 @@
 html,
 body {
- background: rgb(255, 240, 255);
+ background: rgb(240, 177, 221);
 }
+  ul {
+    list-style-type:none;
+    margin: 1px;
+    padding: 45px;
+    overflow: hidden;
+    background-color:rgb(228, 175, 203);
+    border: 5px solid rgb(219, 121, 187);
+    height: 1px;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 20px;
+    margin: 45;
+    padding:45;
+    overflow:hidden;
+    background-color: #ce9c9c;
+  }
+  li {
+    float: left;
+    align-items: center;
+  }
+  
+  li a {
+    display:inline-block;
+    padding: 7px;
+  }
+  
+  li a {
+    border-radius: 20px;
+    display: block;
+    color: rgb(19, 1, 1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:black;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+  
+    background-color: #dbe98d;
+    border-radius: 25px;
+  }
+  nav {
+      display: flex;
+    justify-content: center;
+  
+  }
+ h1{
+  font-family: "Segoe UI";
+  font-family: "Courier New", monospace;
+ }
+ nav{
+justify-content: space-around;
+ }
+
+
 

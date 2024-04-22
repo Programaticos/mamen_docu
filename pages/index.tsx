@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import Saludo from "@/components/layout/main/saludo";
 import Contador from "@/components/pages/home/footer/contador";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export default function index_page_principal() {
@@ -19,11 +18,11 @@ export default function index_page_principal() {
        <Saludo/>
         <ul>
         <li><a href="/html/">HTML<img src="/html.png/"width="36" height="36"></img></a></li>
-        <li><a href="/html">CSS<img src="/css.png/"width="36" height="36"></img></a></li>
-        <li><a href="/html">Js<img src="/js.png/"width="36" height="36"></img></a></li>
-        <li><a href="/html">TS<img src="/TS.png/" width="36" height="36"></img></a></li>
-        <li><a href="/html">Angular<img src="/Angular.png/" width="36" height="36"></img></a></li>
-        <li><a href="/react">React<img src="/react.png/" width="36" height="36"></img></a></li> 
+        <li><a href="/css">CSS<img src="/css.png/"width="36" height="36"></img></a></li>
+        <li><a href="/Js">Js<img src="/js.png/"width="36" height="36"></img></a></li>
+        <li><a href="/Ts">TS<img src="/TS.png/" width="36" height="36"></img></a></li>
+        <li><a href="/Angular">Angular<img src="/Angular.png/" width="36" height="36"></img></a></li>
+        <li><a href="/React">React<img src="/react.png/" width="36" height="36"></img></a></li> 
       </ul> 
     </main>
     <footer>
