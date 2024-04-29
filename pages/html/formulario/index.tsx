@@ -1,4 +1,4 @@
-import BarraNavegacion from "@/components/layout/header/BarraNavegacion";
+import BarraNavegacion from "@/components/layout/header/barraNavegacion";
 import Head from "next/head";
 
 export default function Formulario() {
